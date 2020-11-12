@@ -8,10 +8,10 @@ const Gig = db.define('gig', {
     technologies: {
         type: Sequelize.STRING
     },
-    description: {
+    budget: {
         type: Sequelize.STRING
     },
-    budge: {
+    description: {
         type: Sequelize.STRING
     },
     contact_email: {
