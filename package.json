@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/amul-dhungel/Node-JS-with-Sequelize-ORM/issues"
   },
-  "homepage": "https://github.com/amul-dhungel/Node-JS-with-Sequelize-ORM#readme"
+  "homepage": "https://github.com/amul-dhungel/Node-JS-with-Sequelize-ORM#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "sequelize": "^6.3.5"
+  }
 }
