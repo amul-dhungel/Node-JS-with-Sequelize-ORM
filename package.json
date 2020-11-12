@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/amul-dhungel/Node-JS-with-Sequelize-ORM#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-router": "^10.0.0",
     "nodemon": "^2.0.6",
+    "pg": "^8.5.0",
+    "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5"
   }
 }
