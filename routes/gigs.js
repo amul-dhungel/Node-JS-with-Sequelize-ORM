@@ -13,4 +13,28 @@ router.get('/', (req, res) =>
 
 )
 
+router.get('/add', (req, res) => {
+    const data = {
+        title: "Looking for a React developer",
+        technologies: "react, javascript, html, css",
+        budget: '$3000',
+        description: 'DKFJDFAKFJASDKFDJFLSDKFJASDFKDFJSKDFJ',
+        contact_email: 'user@gmail.com'
+    }
+
+    let { title, technologies, budget, description, contact_email } = data
+
+    // Insert into database table
+
+    Gig.create({
+        title,
+        technologies,
+        budget,
+        description,
+        contact_email
+    })
+        .then(gig => res.redirect('/gigs'))
+        .catch(err => console.log(err))
+})
+
 module.exports = router
